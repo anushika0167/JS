@@ -30,3 +30,8 @@ console.log(undefined <0);
 console.log("2" === 2); // false bcoz it states them as different as "2" is a string
 
 console.log("2"==2); // it will be true bcoz "2" it gets converted into a number
+
+
+
+
+
