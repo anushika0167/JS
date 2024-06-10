@@ -14,7 +14,7 @@ let userEmail;
 const id = Symbol('123')
 const anotherId = Symbol('123')
 
-console.log(id === anotherId);// false
+//console.log(id === anotherId);// false
 
 const bigNumber = 237545755793946347848386n // use n in the end to represent the big numbers
 
@@ -36,8 +36,8 @@ const heros = ["shaktiman"."naagraj", "doga"]
 
 
 const myFunction =function (){
-    console.log("hello world");
-}
+     console.log("hello world");}
+
 
 
 //************memory*****************
