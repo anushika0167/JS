@@ -129,6 +129,44 @@ users[1].email
 
 
 
+//***************de structuring of objects*********************
+
+const course = {
+   coursename:  "js in hindi",
+   price : "999",
+   courseInstructor:"hitesh"
+}
+
+//course.courseInstructor
+
+//const {courseInstructor}= course
+//console.log(courseInstructor);
+
+const { courseInstructor:Instructor}= course
+console.log(Instructor);
+
+//*******JSON*************** java script object notation
+
+
+
+
+{
+      "name": "hitesh",
+      "coursename": "js in hindi ",
+      "price": "free",
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
